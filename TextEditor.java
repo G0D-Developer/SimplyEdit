@@ -142,7 +142,7 @@ public class TextEditor extends JFrame implements ActionListener {
                     if(file.isFile()) {
                         while(fileIn.hasNextLine()) {
                             String line = fileIn.nextLine()+"\n";
-                            textArea.append(line)
+                            textArea.append(line);
                         }
                     }
                 } catch (FileNotFoundException e1) {
